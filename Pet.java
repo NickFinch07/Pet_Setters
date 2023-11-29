@@ -46,8 +46,30 @@ public class Pet {
         return breed;
     }
 
+    
     public String toString() {
         return "Name: " + name + ", Age: " + age + ", Weight: " + weight + ", Type: " + type + ", Breed: " + breed;
+    }
+
+    
+    public void setName (String newName) {
+        name = newName;
+    }
+
+    public void setAge (int newAge) {
+        age = newAge;
+    }
+
+    public void setWeight (double newWeight) {
+        weight = newWeight;
+    }
+
+    public void setType (String newType) {
+        type = newType;
+    }
+
+    public void setBreed (String newBreed) {
+        breed = newBreed;
     }
 
 }
